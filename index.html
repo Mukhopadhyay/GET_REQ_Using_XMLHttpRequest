@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API using XMLHttpRequest</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="container-custom">
+        <h2 class="header-text">Using API using XMLHttpRequest</h2>
+        <p>For this demo, <a href="https://ghibliapi.herokuapp.com/">Studio Ghibli API (v1.01)</a> is used. As per the documentation no authentication is necessary for the Studio Ghibli API. This page will by default fetch data from the mentioned API.</p>
+        <h3>Request Sample</h3>
+<pre class="code">
+    {
+        "id":"58611129-2dbc-4a81-a72f-77ddfc1b1b49",
+        "title":"My Neighbor Totoro"
+        "description":"Two sisters move to the country..",
+        .
+        .
+    }
+</pre>
+    <button id="btn-fetch" onClick="fetchFunction()">
+        Fetch data
+    </button>
+    </div>
+
+    <div id="root"></div>
+
+    <script src="./scripts.js" type="text/javaScript" async />
+</body>
+</html>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+html body {
+    font-family: Comfortaa;
+    margin: 0;
+    padding: 0;
+}
+.container-custom {
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.code {
+    background: #CCC;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.header-text {
+    text-decoration: underline;
+}
+#btn-fetch {
+    font-size: 2em;
+    box-shadow: 10px 10px 5px rgb(0,0,0,.2);
+}
+.card {
+    border: 1px dashed black;
+    padding: 1em;
+    margin: 1em;
+}
